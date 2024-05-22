@@ -1,0 +1,261 @@
+* {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-seriff;
+}
+body {
+    background-color: #1F2937;
+}
+header {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+img {
+    width: 170px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+.container {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.car-porsche {
+    max-width: 50%;
+    width: 600px;
+    height: 400px;
+    margin-right: 260px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: cente;
+    margin-left: 187px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+button.sign-up {
+    background-color: #3882F6;
+    border: 20px;
+    padding: 10px 20px;
+    max-width: 20%;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+button:hover {
+    transition: 100ms ease-in; 
+    scale: 110%;
+}
+
+.container2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+}
+
+.deals {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.deals p {
+    background-color: #E5E7EB;
+}
+
+.intro2 {
+    background-color: #E5E7EB;
+}
+
+h1 {
+    background-color: #E5E7EB;
+    margin-bottom: 50px;
+}
+
+.car1,
+.car2,
+.car3,
+.car4 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rolls,
+.mercedes,
+.urus,
+.huracan {
+    width: 250px;
+    height: auto;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.rolls:hover,
+.mercedes:hover,
+.urus:hover,
+.huracan:hover {
+    transition: 350ms ease-in;
+    scale: 150%;
+}
+
+.car1 {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+
+.car1 p {
+    margin-right: 25px;
+}
+
+.car2 p {
+    margin-left: 200px;
+}
+
+.car3 p {
+    margin-left: 190px;
+}
+
+.car4 p {
+    margin-left: 200px;
+}
+
+.container3 {
+    color: #1F2937;
+    background-color: #b3b5b9;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote {
+    background-color: #b3b5b9;
+}
+
+.author {
+    background-color: #b3b5b9;
+}
+
+p.quote {
+    background-color: #b3b5b9;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+p.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    margin-left: 500px;
+}
+
+.container4 {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #3882F6;
+    height: 200px;
+    width: 1200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.action {
+    background-color: #3882F6;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.action2 {
+    background-color: #3882F6;
+    color: whitesmoke;
+    font-weight: lighter;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: large;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.actiontext {
+    background-color: #3882F6;
+    margin-right: 120px;
+
+}
